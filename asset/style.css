@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+}
+
+img {
+  width: 30%;
+  height: 50%;
+}
+
+#quote {
+  font-style: italic;
+  font-size: 30px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 25px;
+}
