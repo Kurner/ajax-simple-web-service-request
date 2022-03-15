@@ -20,14 +20,14 @@ prout.onload = function()
 
         poulet.textContent = `"${quote}"`;
         
-        // if(photo == null)
-        // {
-        //     img.src = "ugly_doggy.png";
-        // }
-        // else
-        // {
-        // }
+        if(photo == "")
+        {
+            img.src = "../ajax-simple-web-service-request/asset/ugly_doggy.png";
+        }
+        else
+        {
             img.src = photo;
+        }
         
         
         vache.textContent = `- ${author}`;
